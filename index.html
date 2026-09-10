@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pac-Man Rojo y Negro</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <div class="game-container">
+
+        <h1>PAC-MAN</h1>
+
+        <div class="info">
+            <span>Puntos: <strong id="score">0</strong></span>
+            <span>Vidas: <strong id="lives">3</strong></span>
+        </div>
+
+        <canvas id="gameCanvas" width="600" height="600"></canvas>
+
+        <div id="message" class="message">
+            Presioná una flecha para comenzar
+        </div>
+
+        <button id="restartButton">REINICIAR</button>
+
+        <div class="controls">
+            <p>🎮 Usá las flechas del teclado para moverte</p>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
